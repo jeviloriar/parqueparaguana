@@ -3,10 +3,10 @@
 <title>Parque eólico Paraguaná</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="css\w3.css">
-<link rel="stylesheet" href="css\mapa_esri.css">
-<link rel="stylesheet" href="fonts\Raleway\Raleway.css">
-<link rel="stylesheet" href="fonts\font-awesome\font-awesome.min.css">
+<link rel="stylesheet" href="..\css\w3.css">
+<link rel="stylesheet" href="..\css\mapa_esri.css">
+<link rel="stylesheet" href="..\fonts\Raleway\Raleway.css">
+<link rel="stylesheet" href="..\fonts\font-awesome\font-awesome.min.css">
 <style>
 html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 </style>
@@ -14,7 +14,7 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 
 <!-- Top container -->
 <div class="w3-bar w3-top w3-black w3-large" style="z-index:4">
-  <span class="w3-bar-item w3-right"><img src="imagenes/aerogenerador.jpg" class="w3-circle w3-margin-right" style="width:40px"></span>
+  <span class="w3-bar-item w3-right"><img src="..\imagenes/aerogenerador.jpg" class="w3-circle w3-margin-right" style="width:40px"></span>
    <span class="w3-bar-item w3-right"><h3>Actividad Final de Curso</h3></span>
 </div>
   
@@ -30,12 +30,13 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
     <h4><strong>Evaluación del Proyecto</strong></h4>
   </div>
   <div class="w3-bar-block">
-    <a href="#" class="w3-bar-item w3-button w3-padding w3-blue"><i class="fa fa-globe fa-fw"></i>Datos generales</a>
-    <a href="html/eolico.html" class="w3-bar-item w3-button w3-padding"><i class="fa fa-lightbulb-o fa-fw"></i>Analisis eólico</a>
-    <a href="html/solar.html" class="w3-bar-item w3-button w3-padding"><i class="fa fa-sun-o fa-fw"></i>Analisis solar</a>
-	<a href="html/conclusion.html" class="w3-bar-item w3-button w3-padding"><i class="fa fa-legal fa-fw"></i>Conclusiones</a>
+    <a href="..\index.html" class="w3-bar-item w3-button w3-padding"><i class="fa fa-globe fa-fw"></i>Datos generales</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding w3-blue"><i class="fa fa-lightbulb-o fa-fw"></i>Analisis eólico</a>
+    <a href="solar.html" class="w3-bar-item w3-button w3-padding"><i class="fa fa-sun-o fa-fw"></i>Analisis solar</a>
+	<a href="conclusion.html" class="w3-bar-item w3-button w3-padding"><i class="fa fa-legal fa-fw"></i>Conclusiones</a>
   </div>
 </nav>
+
 
 <!-- Overlay effect when opening sidebar on small screens -->
 <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
@@ -45,7 +46,7 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 
   <!-- Header -->
   <header class="w3-container" style="padding-top:22px">
-    <h4><b><i class="fa fa-pencil-square-o"></i> Datos generales</b></h4>
+    <h4><b><i class="fa fa-pencil-square-o"></i> Analisis eólico</b></h4>
   </header>
 
   <div class="w3-row-padding w3-margin-bottom">
@@ -96,55 +97,66 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
       <div class="w3-third">
         <h5><strong>Localización</strong></h5>
 		  <!-- Mapa ArcGis On line incrustado -->
-        <div class="embed-container">
-          <iframe width="600" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="Parques eolicos en Venezuela" src="http://www.arcgis.com/apps/Embed/index.html?webmap=137bbb098de9473c95512a1648f1f72b&extent=-73.4274,6.0269,-59.5956,13.1715&zoom=true&previewImage=false&scale=false&disable_scroll=true&theme=light">
-         </iframe>
-        </div>
+
       </div>
       <div class="w3-twothird">
-        <h5><strong>Tabla comparativa</strong></h5>
+        <h5><strong>Puntos de medición</strong></h5>
         <table class="w3-table w3-striped w3-white">
           <tr>
 		    <td></td>
-            <td><strong>Proyecto</strong></td>
-            <td><i><strong>Extensión</strong></i></td>
-			<td><i><strong>Capacidad</strong></i></td>
-			<td><i><strong>Ubicación</strong></i></td>
+            <td><strong>Puntos</strong></td>
+            <td><i><strong>PVOUT</strong></i></td>
+			<td><i><strong>GHI</strong></i></td>
+			<td><i><strong>DNI</strong></i></td>
 		  </tr>	
 		  <tr>
-            <td><i class="fa fa-check-square-o w3-text-blue w3-large"></i></td>
-            <td>Paraguaná</td>
-            <td><i>575 ha</i></td>
-			<td><i>100 Mwh</i></td>
-			<td><i>Falcón</i></td>
+            <td></td>
+            <td>Punto 1</td>
+            <td><i>1750</i></td>
+			<td><i>2222</i></td>
+			<td><i>2006</i></td>
           </tr>
           <tr>
-            <td><i class="fa fa-check-square-o w3-text-red w3-large"></i></td>
-            <td>La Guajira</td>
-			<td><i>600 ha</i></td>
-			<td><i>150 Mwh</i></td>
-            <td><i>Zulia</i></td>
+            <td></td>
+            <td>Punto 2</td>
+            <td><i>1748</i></td>
+			<td><i>2221</i></td>
+			<td><i>2000</i></td>
           </tr>
           <tr>
-            <td><i class="fa fa-check-square-o w3-text-yellow w3-large"></i></td>
-            <td>Margarita</td>
-            <td><i>300 ha</i></td>
-			<td><i>50 Mwh</i></td>
-			<td><i>Nueva Esparta</i></td>
+            <td></td>
+            <td>Punto 3</td>
+            <td><i>1761</i></td>
+			<td><i>2239</i></td>
+			<td><i>2050</i></td>
           </tr>
           <tr>
-            <td><i class="fa fa-check-square-o w3-text-green w3-large"></i></td>
-            <td>Coche</td>
-            <td><i>180 ha</i></td>
-			<td><i>25 Mwh</i></td>
-			<td><i>Nueva Esparta</i></td>
+            <td></td>
+            <td>Punto 4</td>
+            <td><i>1754</i></td>
+			<td><i>2239</i></td>
+			<td><i>2023</i></td>
           </tr>
           <tr>
-            <td><i class="fa fa-check-square-o w3-text-pink w3-large"></i></td>
-            <td>Araya</td>
-            <td><i>120 ha</i></td>
-			<td><i>15 Mwh</i></td>
-			<td><i>Sucre</i></td>
+            <td></td>
+            <td>Punto 5</td>
+            <td><i>1743</i></td>
+			<td><i>2214</i></td>
+			<td><i>1982</i></td>
+          </tr>
+		  <tr>
+            <td></td>
+            <td>Punto 6</td>
+            <td><i>1746</i></td>
+			<td><i>2216</i></td>
+			<td><i>1989</i></td>
+          </tr>
+		  <tr>
+            <td></td>
+            <td>Promedio</td>
+            <td><i>1750</i></td>
+			<td><i>2225</i></td>
+			<td><i>2008</i></td>
           </tr>
          </table>
       </div>
