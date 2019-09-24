@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "nombre": "Punto 1", "PVOUT": 1750, "GHI": 2222, "DNI": 2006, "DIF": 805, "GTI": 2271, "OPTA": "30\/180", "TEMP": 27.5, "ELEV": 29 }, "geometry": { "type": "Point", "coordinates": [ -70.2359, 11.81199 ] } },
+{ "type": "Feature", "properties": { "nombre": "Punto 2", "PVOUT": 1748, "GHI": 2221, "DNI": 2000, "DIF": 805, "GTI": 2269, "OPTA": "30\/180", "TEMP": 27.5, "ELEV": 30 }, "geometry": { "type": "Point", "coordinates": [ -70.2348, 11.7956 ] } },
+{ "type": "Feature", "properties": { "nombre": "Punto 3", "PVOUT": 1761, "GHI": 2239, "DNI": 2050, "DIF": 790, "GTI": 2228, "OPTA": "30\/180", "TEMP": 27.5, "ELEV": 32 }, "geometry": { "type": "Point", "coordinates": [ -70.227, 11.8188 ] } },
+{ "type": "Feature", "properties": { "nombre": "Punto 4", "PVOUT": 1754, "GHI": 2239, "DNI": 2023, "DIF": 798, "GTI": 2277, "OPTA": "30\/180", "TEMP": 27.5, "ELEV": 34 }, "geometry": { "type": "Point", "coordinates": [ -70.2266, 11.8059 ] } },
+{ "type": "Feature", "properties": { "nombre": "Punto 5", "PVOUT": 1743, "GHI": 2214, "DNI": 1982, "DIF": 812, "GTI": 2262, "OPTA": "30\/180", "TEMP": 27.5, "ELEV": 23 }, "geometry": { "type": "Point", "coordinates": [ -70.242438239916837, 11.803975657565825 ] } },
+{ "type": "Feature", "properties": { "nombre": "Punto 6", "PVOUT": 1746, "GHI": 2216, "DNI": 1989, "DIF": 811, "GTI": 2264, "OPTA": "30\/180", "TEMP": 27.5, "ELEV": 28 }, "geometry": { "type": "Point", "coordinates": [ -70.242653322315576, 11.818959731344313 ] } }
+]
+}

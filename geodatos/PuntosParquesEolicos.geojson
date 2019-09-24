@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Name": "Paraguaná", "description": "Parque Eolico Paraguná", "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 1, "visibility": -1, "drawOrder": null, "icon": null }, "geometry": { "type": "Point", "coordinates": [ -70.233833333333294, 11.81145, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "La Guajira", "description": "Parque Eolico La Guajira", "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 1, "visibility": -1, "drawOrder": null, "icon": null }, "geometry": { "type": "Point", "coordinates": [ -71.828702777777806, 11.117280555555601, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Coche", "description": "Parque Eolico Isla de Coche", "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 1, "visibility": -1, "drawOrder": null, "icon": null }, "geometry": { "type": "Point", "coordinates": [ -63.89695, 10.7733194444444, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Margarita", "description": "Parque Eolico Isla de Margarita", "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 1, "visibility": -1, "drawOrder": null, "icon": null }, "geometry": { "type": "Point", "coordinates": [ -64.3778, 11.0361777777778, 0.0 ] } },
+{ "type": "Feature", "properties": { "Name": "Araya", "description": "Parque Eolico Peninsula de Araya", "timestamp": null, "begin": null, "end": null, "altitudeMode": null, "tessellate": -1, "extrude": 1, "visibility": -1, "drawOrder": null, "icon": null }, "geometry": { "type": "Point", "coordinates": [ -64.244488888888895, 10.5352833333333, 0.0 ] } }
+]
+}

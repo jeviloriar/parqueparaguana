@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "nombre": "Punto 1", "altura": 50, "densidad": 508, "velocidad": 8.45 }, "geometry": { "type": "Point", "coordinates": [ -70.2359, 11.81199 ] } },
+{ "type": "Feature", "properties": { "nombre": "Punto 2", "altura": 50, "densidad": 555, "velocidad": 8.7 }, "geometry": { "type": "Point", "coordinates": [ -70.2348, 11.7956 ] } },
+{ "type": "Feature", "properties": { "nombre": "Punto 3", "altura": 50, "densidad": 420, "velocidad": 7.98 }, "geometry": { "type": "Point", "coordinates": [ -70.227, 11.8188 ] } },
+{ "type": "Feature", "properties": { "nombre": "Punto 4", "altura": 50, "densidad": 481, "velocidad": 8.29 }, "geometry": { "type": "Point", "coordinates": [ -70.2266, 11.8059 ] } },
+{ "type": "Feature", "properties": { "nombre": "Punto 5", "altura": 50, "densidad": 583, "velocidad": 8.87 }, "geometry": { "type": "Point", "coordinates": [ -70.242438239916837, 11.803975657565825 ] } },
+{ "type": "Feature", "properties": { "nombre": "Punto 6", "altura": 50, "densidad": 509, "velocidad": 8.46 }, "geometry": { "type": "Point", "coordinates": [ -70.242653322315576, 11.818959731344313 ] } }
+]
+}

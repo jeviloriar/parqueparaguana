@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "ParqueEolicoParaguanaPoly",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "osm_id": "486617785", "name": "Parque Eólico Paraguaná", "highway": null, "waterway": null, "aerialway": null, "barrier": null, "man_made": null, "z_order": 0, "other_tags": "\"generator:method\"=>\"wind\",\"generator:source\"=>\"wind\",\"generator:type\"=>\"cinetico\",\"operator\"=>\"PDVSA  (CORPOELECT)\",\"power\"=>\"generator\"" }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -70.2430059, 11.8200849 ], [ -70.2408099, 11.8211903 ], [ -70.2320512, 11.8227133 ], [ -70.2315116, 11.8225045 ], [ -70.2308089, 11.8220623 ], [ -70.2269064, 11.8185496 ], [ -70.2249614, 11.8126049 ], [ -70.2265801, 11.805616 ], [ -70.2318128, 11.797804 ], [ -70.2366313, 11.7924976 ], [ -70.2443486, 11.7973004 ], [ -70.2430059, 11.8200849 ] ] ] ] } }
+]
+}
