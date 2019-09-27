@@ -1,12 +1,13 @@
 ﻿<!DOCTYPE html>
 <html>
-<title>Parque eólico Paraguaná</title>
+<title>Parque Paraguaná</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="..\css\w3.css">
 <link rel="stylesheet" href="..\css\mapa_esri.css">
 <link rel="stylesheet" href="..\fonts\Raleway\Raleway.css">
 <link rel="stylesheet" href="..\fonts\font-awesome\font-awesome.min.css">
+<link rel="icon" href="../favicon.ico" type="image/x-icon">
 <style>
 html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 </style>
@@ -14,27 +15,27 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 
 <!-- Top container -->
 <div class="w3-bar w3-top w3-black w3-large" style="z-index:4">
-   <span class="w3-bar-item w3-left"><img src="../imagenes/geoinnova.jpg" class="w3-margin-left" style="width:100px;height:50px"></span>
-  <span class="w3-bar-item w3-right"><img src="../imagenes/aerogenerador.jpg" class="w3-circle w3-margin-right" style="width:40px"></span>
-   <span class="w3-bar-item w3-right"><h3>Actividad Final de Curso</h3></span>
+   <span class="w3-bar-item w3-left"><img src="../imagenes/geoinnova.jpg" class="w3-margin-left" style="width:180px;height:70px"></span>
+  <span class="w3-bar-item w3-right"><img src="../imagenes/aerogenerador.jpg" class="w3-circle w3-margin-right" style="width:55px"></span>
+   <span class="w3-bar-item w3-right"><h1>Actividad Final de Curso</h1></span>
 </div>
   
 <!-- Sidebar/menu -->
 <nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
   <div class="w3-container w3-row">
     <div class="w3-col s8 w3-bar">
-      <span><h3>Parque eólicio <strong>Paraguaná</h3></strong></span>
+      <span><h3>Parque eólico</h3<strong><h2>Paraguaná</h2></strong></span>
     </div>
   </div>
   <hr>
   <div class="w3-container">
     <h4><strong>Evaluación del Proyecto</strong></h4>
   </div>
-  <div class="w3-bar-block">
-    <a href="..\index.html" class="w3-bar-item w3-button w3-padding"><i class="fa fa-globe fa-fw"></i>Datos generales</a>
-    <a href="eolico.html" class="w3-bar-item w3-button w3-padding"><i class="fa fa-lightbulb-o fa-fw"></i>Analisis eólico</a>
-    <a href="#" class="w3-bar-item w3-button w3-padding w3-blue"><i class="fa fa-sun-o fa-fw"></i>Analisis solar</a>
-	<a href="conclusion.html" class="w3-bar-item w3-button w3-padding"><i class="fa fa-legal fa-fw"></i>Conclusiones</a>
+  <div class="w3-bar-block w3-medium">
+    <a href="..\index.html" class="w3-bar-item w3-button w3-padding"><i class="fa fa-globe fa-fw"></i> Datos generales</a>
+    <a href="eolico.html" class="w3-bar-item w3-button w3-padding"><i class="fa fa-lightbulb-o fa-fw"></i> Analisis eólico</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding w3-blue"><i class="fa fa-sun-o fa-fw"></i> Analisis solar</a>
+	<a href="conclusion.html" class="w3-bar-item w3-button w3-padding"><i class="fa fa-legal fa-fw"></i> Conclusiones</a>
   </div>
 </nav>
 
@@ -43,11 +44,11 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
 
 <!-- !PAGE CONTENT! -->
-<div class="w3-main" style="margin-left:300px;margin-top:43px;">
+<div class="w3-main" style="margin-left:300px;margin-top:80px;">
 
   <!-- Header -->
   <header class="w3-container" style="padding-top:22px">
-    <h4><b><i class="fa fa-pencil-square-o"></i> Analisis solar</b></h4>
+    <h3><b><i class="fa fa-pencil-square-o"></i> Analisis solar</b></h3>
   </header>
 
   <div class="w3-row-padding w3-margin-bottom">
@@ -164,23 +165,39 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
           </tr>
          </table>
       </div><br>
+	  <div class="w3-medium w3-panel w3-margin-right">
 	  <p>Datos obtenidos de la aplicación web <a href "http://globalsolaratlas.info/" target="_blank">Atlas Global Solar</a>, mediciones correspondiente a la irradiación solar. Los datos poseen una resolución espacial de unos 30 segundos de arco de grado, el equivalente a 1 km aproximadamente. Las capas de datos proporcionadas incluyen el promedio anual a largo plazo de las siguientes variables:</p>
 	  <p>•	PVOUT - Potencial de energía fotovoltaica en unidades de medida kWh/kWp.</p>
       <p>•	GHI - Irradiación horizontal global en unidades de medida kWh/m2.</p>
       <p>•	DIF: irradiación horizontal difusa (kWh/m2).</p>
+	  </div>
     </div>
   </div>
-
   <hr>
+  
+  <div class="w3-container">
+    <h5><strong>Mapa potencial eólico</strong></h5>
+    <ul class="w3-ul w3-card-4 w3-white">
+      <li class="w3-padding-16">
+			  <!-- Mapa ArcGis On line incrustado -->
+		<div class="embed-container">
+		   <iframe width="500" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="Mapa Parque Eólico Paraguaná" src="//www.arcgis.com/apps/Embed/index.html?webmap=41223a7042714e50899c92858fe5f86a&extent=-70.2728,11.7805,-70.1648,11.836&zoom=true&previewImage=false&scale=false&disable_scroll=true&theme=light">
+		   </iframe>
+		</div>
+      </li>
+    </ul>
+  </div>
+  <hr>
+  
   <div class="w3-container">
     <h5><strong>Análisis de resultados</strong></h5>
     <ul class="w3-ul w3-card-4 w3-white">
       <li class="w3-padding-16">
-		<span class="w3-medium">
+		<div class="w3-medium w3-panel w3-margin-right">
 		<p>En base a los datos de potencial de radiación solar del área de estudio, obtenidos utilizando la aplicación Atlas Global Solar, podemos inferir que existen las condiciones ideales para aprovechar económicamente el potencial solar de la región.</p>
         <p>Los datos analizados muestran un potencial fotovoltaico en promedio de unos 1750 Kvh, esto representa una excelente oportunidad de complementar la producción de electricidad limpia  y aprovechar al máximo el área ocupada por el parque eólico Paraguaná.</p>
         <p>Las mediciones de los seis (6) puntos fueron contrastadas en la aplicación web SolarGIS dando como resultado valores muy cercanos a los obtenidos por otras aplicaciones de este tipo.</p>
-		</span>
+		</div>
       </li>
     </ul>
   </div>
@@ -203,8 +220,9 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
         <a href="#" class="w3-bar-item w3-button"><i class="fa fa-github"></i></a>
 	    <a href="#" class="w3-bar-item w3-button"><i class="fa fa-linkedin"></i></a>
       </div>
-    </div>
-  <br>
+	  </div>
+    </div><br>
+	
   <div class="w3-container w3-dark-grey w3-padding-small">
     <div class="w3-row">
 	<h3>Curso: Geodatos en aplicaciones web</h3>
